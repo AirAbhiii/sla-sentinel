@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solar Panels</fullName>
+                <default>false</default>
+                <label>Solar Panels</label>
+            </value>
+            <value>
+                <fullName>Inverters</fullName>
+                <default>false</default>
+                <label>Inverters</label>
+            </value>
+            <value>
+                <fullName>Charge Controllers</fullName>
+                <default>false</default>
+                <label>Charge Controllers</label>
+            </value>
+            <value>
+                <fullName>Batteries</fullName>
+                <default>false</default>
+                <label>Batteries</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
